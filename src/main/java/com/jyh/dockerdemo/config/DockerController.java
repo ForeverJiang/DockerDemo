@@ -1,5 +1,6 @@
 package com.jyh.dockerdemo.config;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -10,10 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
  * Time: 11:13
  */
 
-@RestController
+@Controller
 public class DockerController {
-    @RequestMapping("/")
+    @RequestMapping("/love")
     public String index() {
-        return "Hello Docker!";
+        return "Love";
     }
 }
