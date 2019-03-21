@@ -1,6 +1,7 @@
 server:
-  port: 9090
+  port: 1314
 
+#  thymeleaf方式需要的配置
 spring:
   thymeleaf:
     prefix: classpath:/static/
